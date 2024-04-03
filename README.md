@@ -1,9 +1,7 @@
 # Breast Cancer Prediction Application using Machine Learning Classifiers
 > This repository contains the source code for an application developed as part of a Bachelor's thesis 
 aimed at assisting doctors in diagnosing breast cancer using machine learning methods.
-# Project Name
-> Outline a brief description of your project.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+
 
 ## Table of Contents
 * [General Info](#general-information)
