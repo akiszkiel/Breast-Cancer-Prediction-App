@@ -1,7 +1,5 @@
 # Breast Cancer Prediction Application using Machine Learning Classifiers
-> This repository contains the source code for an application developed as part of a Bachelor's thesis 
-aimed at assisting doctors in diagnosing breast cancer using machine learning methods.
-
+> This project focuses on the development of an application for breast cancer prediction using machine learning techniques.
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -9,20 +7,13 @@ aimed at assisting doctors in diagnosing breast cancer using machine learning me
 * [Features](#features)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
-* [Usage](#usage)
 * [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
 <!-- * [License](#license) -->
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-This project presents an application developed as part of a Bachelor's thesis aimed at assisting doctors in diagnosing breast cancer using machine learning methods.
+This project, developed as part of an engineering thesis, presents an application for breast cancer identification. The application is designed to assist doctors in diagnosing breast cancer by analyzing results from fine-needle aspiration biopsy tests. 
+The project involved conducting exploratory analysis (analysis.py) on the Wisconsin Diagnostic Breast Cancer (WDBC) dataset. You can access the WDBC dataset [here] (https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic). Four machine learning classifiers were trained: logistic regression, SVM, decision tree, and random forest. Classifier validation was conducted, leading to the selection of logistic regression as the model to be used in the application (model.py). An application for breast cancer identification was built, featuring an intuitive graphical interface (gui.py) created using the Tkinter library.
 
 
 
@@ -55,43 +46,16 @@ This project presents an application developed as part of a Bachelor's thesis ai
 
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+To set up the project, follow these steps:
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
-
-
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
+- Make sure you have the Python interpreter installed on your computer. You can download the latest version from Python.org. 
+- Clone the repository: git clone 'https://github.com/akiszkiel/Breast-Cancer-Prediction-App.git'.
+- Install dependencies: 'pip install -r requirements.txt'.
+- Run the application: 'python gui.py'.
 
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
-
-
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
-
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
-
-
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Project is: _complete_.
 
 
 <!-- Optional -->
