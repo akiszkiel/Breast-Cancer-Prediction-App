@@ -13,7 +13,7 @@
 
 ## General Information
 This project, developed as part of an engineering thesis, presents an application for breast cancer identification. The application is designed to assist doctors in diagnosing breast cancer by analyzing results from fine-needle aspiration biopsy tests. 
-The project involved conducting exploratory analysis (analysis.py) on the Wisconsin Diagnostic Breast Cancer (WDBC) dataset. You can access the WDBC dataset [here] (https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic). Four machine learning classifiers were trained: logistic regression, SVM, decision tree, and random forest. Classifier validation was conducted, leading to the selection of logistic regression as the model to be used in the application (model.py). An application for breast cancer identification was built, featuring an intuitive graphical interface (gui.py) created using the Tkinter library.
+The project involved conducting exploratory analysis (analysis.py) on the Wisconsin Diagnostic Breast Cancer (WDBC) dataset. You can access the WDBC dataset [here](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic). Four machine learning classifiers were trained: logistic regression, SVM, decision tree, and random forest. Classifier validation was conducted, leading to the selection of logistic regression as the model to be used in the application (model.py). An application for breast cancer identification was built, featuring an intuitive graphical interface (gui.py) created using the Tkinter library.
 
 
 
