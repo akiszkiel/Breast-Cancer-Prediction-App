@@ -122,12 +122,12 @@ for feature in features:
     
     # Create a histogram with a density plot
     sns.histplot(selected_feature, bins=10, kde=True, color='blue', label='Histogram')
-    plt.axvline(mean, color='green', label=f'Średnia: {mean:.2f}')
-    plt.axvline(median, color='red',  label=f'Mediana: {median:.2f}')
+    plt.axvline(mean, color='green', label=f'Mean: {mean:.2f}')
+    plt.axvline(median, color='red',  label=f'Median: {median:.2f}')
     plt.title(f'Histogram of {feature}')
     plt.xlabel(feature)
     plt.ylabel('Number of observations')
-    sns.kdeplot(selected_feature, color='blue', label='Wykres gęstości', legend=True)
+    sns.kdeplot(selected_feature, color='blue', label='Density plot', legend=True)
     legend = plt.legend()
     plt.show()
 
@@ -142,8 +142,8 @@ for feature in features:
 
     # Create a density plot for the Malignant and Benign 
     plt.figure(figsize=(8, 6))
-    sns.kdeplot(df[df['diagnosis'] == 'M'][feature], color='red', label='Złośliwe')
-    sns.kdeplot(df[df['diagnosis'] == 'B'][feature], color='green', label='Łagodne')
+    sns.kdeplot(df[df['diagnosis'] == 'M'][feature], color='red', label='Malignant')
+    sns.kdeplot(df[df['diagnosis'] == 'B'][feature], color='green', label='Benign')
     plt.title(f'Density Plot for {feature}')
     plt.xlabel(feature)
     plt.ylabel('Density')
